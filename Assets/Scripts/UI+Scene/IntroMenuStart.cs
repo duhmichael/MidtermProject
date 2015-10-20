@@ -15,7 +15,7 @@ public class IntroMenuStart : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		//if player presses space
-		if ( Input.GetKeyDown (KeyCode.Space) ) {
+		if ( Input.GetKeyDown (KeyCode.W) ) {
 			//then change to the actual 'game' scene
 			//can use the name of the level or the number assigned in the Build Settings
 			Application.LoadLevel( 1 ) ;
